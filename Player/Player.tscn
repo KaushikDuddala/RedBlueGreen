@@ -231,7 +231,13 @@ region_rect = Rect2( 368, 0, 64, 48 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
+limit_left = 0
+limit_top = -360
+limit_right = 320
+limit_bottom = 180
+limit_smoothed = true
 smoothing_enabled = true
+smoothing_speed = 3.0
 editor_draw_limits = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
