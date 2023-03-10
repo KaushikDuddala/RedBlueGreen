@@ -247,6 +247,7 @@ offset = Vector2( 160, 90 )
 transform = Transform2D( 1, 0, 0, 1, 160, 90 )
 
 [node name="CommonName" type="Sprite" parent="Camera2D/CanvasLayer"]
+visible = false
 scale = Vector2( 0.344994, 0.344994 )
 texture = ExtResource( 3 )
 
