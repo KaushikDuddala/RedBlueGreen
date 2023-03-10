@@ -10,8 +10,9 @@ config_version=4
 
 [application]
 
-config/name="jeff"
+config/name="RedBlueGreen"
 run/main_scene="res://World.tscn"
+config/icon="res://Files/Screenshot_2023-03-10-07-30-21_1920x1080.png"
 
 [display]
 
